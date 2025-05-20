@@ -8,7 +8,7 @@ function loadAdvice() {
 
     if (navigator.onLine) {
 
-        fetch('https://api.adviceslip.com/advice', controller.signal)
+        fetch('https://api.adviceslip.com/advice')
         .then(response => response.json())
         .then(adviceData => {
 
