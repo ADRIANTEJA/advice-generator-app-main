@@ -75,5 +75,9 @@ body {
         height: 4rem;
         width: 4rem; 
     }
+
+    .generate-advice-button:hover {
+        box-shadow: 0 0 30px 5px hsla(150, 100%, 66%, 0.6);
+    }
 }
 
