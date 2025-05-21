@@ -2,6 +2,8 @@ const adviceIdText = document.querySelector('[advice-id]');
 const adviceText = document.querySelector('[advice]');
 const generateAdviceButton = document.querySelector('[generate-advice-button]');
 
+loadAdvice();
+
 generateAdviceButton.addEventListener('click', loadAdvice);
 
 function loadAdvice() {
